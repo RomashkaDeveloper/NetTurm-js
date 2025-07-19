@@ -1,0 +1,29 @@
+{
+  "name": "netturm",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "electron-store": "^8.1.0"
+  },
+  "devDependencies": {
+    "electron": "^25.3.1",
+    "electron-builder": "^24.6.3"
+  },
+  "build": {
+    "appId": "com.netturm.app",
+    "win": {
+      "target": "portable",
+      "icon": "icon.png",
+      "signAndEditExecutable": false
+    }
+  }
+}
