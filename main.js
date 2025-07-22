@@ -14,7 +14,8 @@ function createWindow() {
     });
 
     // Load the url
-    mainWindow.loadURL('http://192.168.191.244:3000');
+    mainWindow.loadURL('https://humane-mistakenly-shepherd.ngrok-free.app/');
+    // use this link https://humane-mistakenly-shepherd.ngrok-free.app/ or if you are in a local network via ZeroTier, use 192.168.191.244:3000
 
     // Open the DevTools if needed (comment out in production)
     // mainWindow.webContents.openDevTools();
