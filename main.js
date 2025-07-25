@@ -16,12 +16,12 @@ function createWindow() {
     // Load the url
     (async () => {
         const urls = [
-            "http://192.168.1.21:3000",
-            "http://192.168.191.244:3000",
-            "https://humane-mistakenly-shepherd.ngrok-free.app/"
+            "https://netturm.ru.tuna.am/",
+            "http://192.168.191.244:3000/",
+            "http://192.168.1.21:3000/",
         ];
 
-        for (let url of urls) {
+        for (const url of urls) {
             const isOnline = await pingServer(url);
             if (isOnline) {
                 console.log(`${url} available, you are connected to the server`);
